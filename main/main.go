@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	"github.com/sz0539/mytar/gtar"
+	"github.com/sz0539/tar/untar"
 )
 
 func main() {
 
-	t := &gtar.UnTar{
+	t := &untar.UnTar{
 		Source: "",
 		Target: "",
 	}
